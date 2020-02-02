@@ -1,0 +1,19 @@
+plugin.tx_sgrapidmail {
+	view {
+		templateRootPaths{
+			0 = EXT:sg_rapidmail/Resources/Private/Templates/
+			1 = {$plugin.tx_sgrapidmail.view.templateRootPath}
+		}
+		partialRootPaths{
+			0 = EXT:sg_rapidmail/Resources/Private/Partials/
+			1 = {$plugin.tx_sgrapidmail.view.partialRootPath}
+		}
+		layoutRootPaths{
+			0 = EXT:sg_rapidmail/Resources/Private/Layouts/
+			1 = {$plugin.tx_sgrapidmail.view.layoutRootPath}
+		}
+	}
+	persistence {
+		storagePid = {$plugin.tx_sgrapidmail.persistence.storagePid}
+	}
+}

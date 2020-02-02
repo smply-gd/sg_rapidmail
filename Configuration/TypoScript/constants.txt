@@ -1,0 +1,14 @@
+plugin.tx_sgrapidmail {
+	view {
+		# cat=plugin.tx_sgrapidmail/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:sg_rapidmail/Resources/Private/Templates/
+		# cat=plugin.tx_sgrapidmail/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:sg_rapidmail/Resources/Private/Partials/
+		# cat=plugin.tx_sgrapidmail/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:sg_rapidmail/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_sgfaq//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

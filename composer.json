@@ -1,0 +1,28 @@
+{
+  "name": "smplygd/sg-rapidmail",
+  "type": "typo3-cms-extension",
+  "version": "0.0.0",
+  "description": "Extension for connecting Rapidmail Service to TYPO3",
+  "authors": [
+    {
+      "name": "Daniel Hoffmann",
+      "role": "Developer"
+    },
+    {
+      "name": "Marc Saleiko",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^9.5.13"
+  },
+  "replace":{
+    "sg_rapidmail": "self.version",
+    "typo3-ter/sg-rapidmail": "self.version"
+  },
+  "autoload":{
+    "psr-4":{
+      "SG\\SgRapidmail\\": "Classes/"
+    }
+  }
+}
