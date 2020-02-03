@@ -1,1 +1,1 @@
-# sg_rapidmail
+# sg_rapidmail Readme
